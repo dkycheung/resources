@@ -1,0 +1,26 @@
+[
+    {
+        "title": "AFRC",
+        "contentUrl": "./content/je_afrc.html",
+        "description": "Revamp Website",
+        "year": "2023",
+        "thumbnailUrl": "./img/je_afrc_t.png",
+        "backgroundUrl": "./img/je_afrc_bg.jpg"
+    },
+    {
+        "title": "Maxims MX",
+        "contentUrl": "./content/je_mx.html",
+        "description": "Interactive Website with Online Ordering",
+        "year": "2024",
+        "thumbnailUrl": "./img/je_mx_t.png",
+        "backgroundUrl": "./img/je_mx_bg.png"
+    },
+    {
+        "title": "Hung Lung",
+        "contentUrl": "./content/je_hanglung.html",
+        "description": "Revamp Website & Improve Experences",
+        "year": "2023",
+        "thumbnailUrl": "./img/je_hl_t.png",
+        "backgroundUrl": "./img/je_hl_bg.jpg"
+    }
+]
