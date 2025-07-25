@@ -1,5 +1,13 @@
 [
     {
+        "title": "Metroradio",
+        "contentUrl": "./content/je_metro.html",
+        "description": "Mobile App & Site Maintenance",
+        "year": "2023-2024",
+        "thumbnailUrl": "./img/je_metro_t.svg",
+        "backgroundUrl": "./img/je_metro_bg.jpg"
+    },
+    {
         "title": "AFRC",
         "contentUrl": "./content/je_afrc.html",
         "description": "Revamp Website",
