@@ -1,46 +1,81 @@
-<div class="">
-  <div class="position-relative">
+<div class="position-relative">
+  <p>
     <img src="/resources/img/je_mx_2.png" alt="Mobile View" class="figure float-md-end" />
-    Building Responsive Website for Maxims MX, revamping site structure, improve style and user experience
-    <br /><br />
-    FrontEnd: ReactJs & NextJs<br />
-    BackEnd:  ASP.NET C#
-    <br /><br />
-  </div>
+    Building Responsive Website and Online Ordering for Maxims MX
+  </p>
 
-  <div class="position-relative">
-    My Contribution as a Develoment Team Member (Back-end):
-    <ol>
-      <li>
-        Back-end Services and Functionalities
-        <ul>
-          <li>Built database table for Products' raw data (EF core)</li>
-          <li>Load Products' raw data from client's POS system daily (CSV)</li>
-          <li>Import Shops & Products details into CMS from Excel file </li>
-          <li>Built Address Veridation using Address Lookup Service from data.gov.hk</li>
-          <li>Built RESTful Api for front-end interaction: (food ordering, address input etc)</li>
-        </ul>
-      </li>
-      <li>
-        Content Management System (Umbraco CMS Framework)
-        <ul>
-          <li>
-            Design & build Document(Item) types and structure, including
-            <ul>
-              <li>Products & Categories</li>
-              <li>Shops & Areas</li>
-            </ul>
-          </li>
-          <li>Build extra components with corresponding functionalities</li>
-          <li>Replace Document Creation for Products to apply custom checking</li>
-          <li>Create custom Orders List and View (AngularJS)</li>
-        </ul>
-      </li>
-    </ol>
-    <img src="/resources/img/je_mx_1.png" alt="Mobile View" class="figure float-md-end" />
-  </div>
+  <ul class="scope">
+    <li>
+      Product Menu Services (Back-end & CMS Front-end):
+      <ul>
+        <li>Built database table for Products' raw data (EF)</li>
+        <li>Load Products' raw data from client's POS system daily (CSV)</li>
+        <li>
+          Design CMS data components and document structure, with complex relationship between document types (Umbraco
+          CMS), including:
+          <ul>
+            <li>Lifetime/Scheduled Date-range Categories</li>
+            <li>Set, Single & Side dishes</li>
+            <li>Additional products</li>
+          </ul>
+          , and applying dynamic selection interface to validate relationship.
+        </li>
+        <li>Built New data components with CMS interfaces (AngularJS) and backend functions (C#)</li>
+        <li>
+          Replace standard Product creation with custom creation flow, to force valid and unique product id in CMS
+          system, while inject basic data from POS dataset to new record
+        </li>
+        <li>
+          Built Bulk Product & Category Import function & CMS interface from structed Excel file, greatly increase speed
+          to initialize/update records
+        </li>
+        <li></li>
+        <li>Built RESTful Apis to serve Product list and Details to front-end React site</li>
+      </ul>
+    </li>
+    <li>
+      Shop & Address Locating Services (Back-end & CMS Front-end):
+      <img src="/resources/img/je_mx_1.png" alt="Shop Selection" class="figure float-md-end" />
+      <ul>
+        <li>
+          Design CMS data components and document structure, with complex relationship between document types (Umbraco
+          CMS), including:
+          <ul>
+            <li>Shop Details & Locations</li>
+            <li>Districts - Area - Shop</li>
+          </ul>
+        </li>
+        <li>
+          Built Bulk Shop/Area Import function & CMS interface from structed Excel file, greatly increase speed to
+          initialize/update records
+        </li>
+        <li>Built Back-end Address Veridation services using Address Lookup Service from data.gov.hk</li>
+        <li>Built RESTful Apis to serve Shop/Address selection function to front-end React site</li>
+      </ul>
+    </li>
+    <li>
+      Order Management (Back-end & CMS Front-end):
+      <ul>
+        <li>Built custom CMS List view and Order view (AngularJS)</li>
+        <li>Built RESTful Apis to serve Order records to CMS views</li>
+      </ul>
+    </li>
+  </ul>
 
-  <div class="position-relative clearfix">
-    Link to <a href="https://www.maximsmx.com.hk/" target="_blank"> Maxims MX Web site </a>
-  </div>
+  <ul class="tech">
+    <li>
+      Tech Stack:
+      <ul class="tech-list">
+        <li>ASP.Net</li>
+        <li>C#</li>
+        <li>EF Core</li>
+        <li>MSSQL</li>
+        <li>Umbraco CMS</li>
+        <li>AngularJS</li>
+        <li>HTML (5)</li>
+        <li>CSS (3)</li>
+        <li>Javascript</li>
+      </ul>
+    </li>
+  </ul>
 </div>

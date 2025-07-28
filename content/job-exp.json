@@ -1,33 +1,54 @@
 [
     {
-        "title": "Metroradio",
-        "contentUrl": "./content/je_metro.html",
-        "description": "Mobile App & Site Maintenance",
-        "year": "2023-2024",
+        "title": "Mobile App Development",
+        "contentUrl": "./content/je_metro_app.html",
+        "company": "Metroradio",
+        "role": "Backend Developer\nFull-stack CMS Developer",
+        "year": "2024",
+        "appUrl": {
+            "google": "https://play.google.com/store/apps/details?id=hk.com.metroradio&hl=zh_HK",
+            "apple": "http://itunes.apple.com/hk/app/xin-cheng-guang-bo-bao-han/id323984232?l=zh&mt=8"
+        },
         "thumbnailUrl": "./img/je_metro_t.svg",
         "backgroundUrl": "./img/je_metro_bg.jpg"
     },
     {
-        "title": "AFRC",
-        "contentUrl": "./content/je_afrc.html",
-        "description": "Revamp Website",
-        "year": "2023",
-        "thumbnailUrl": "./img/je_afrc_t.png",
-        "backgroundUrl": "./img/je_afrc_bg.jpg"
-    },
-    {
-        "title": "Maxims MX",
+        "title": "Website with Online Ordering",
         "contentUrl": "./content/je_mx.html",
-        "description": "Interactive Website with Online Ordering",
+        "company": "Maxims MX",
+        "role": "Backend Developer\nFull-stack CMS Developer",
         "year": "2024",
+        "siteUrl": "https://www.maximsmx.com.hk/",
         "thumbnailUrl": "./img/je_mx_t.png",
         "backgroundUrl": "./img/je_mx_bg.png"
     },
     {
-        "title": "Hung Lung",
+        "title": "Website Maintenance",
+        "contentUrl": "./content/je_metro_maint.html",
+        "company": "Metroradio",
+        "role": "Full-stack Developer",
+        "year": "2023-2024",
+        "siteUrl": "https://www.metroradio.com.hk/",
+        "thumbnailUrl": "./img/je_metro_bg.jpg",
+        "backgroundUrl": "./img/je_metro_bg.jpg"
+    },
+    {
+        "title": "Website Full Revamp",
+        "contentUrl": "./content/je_afrc.html",
+        "company": "AFRC",
+        "role": "Backend Developer\nFull-stack CMS Developer",
+        "year": "2022-2023",
+        "siteUrl": "https://www.afrc.org.hk/",
+        "thumbnailUrl": "./img/je_afrc_t.png",
+        "backgroundUrl": "./img/je_afrc_bg.jpg"
+    },
+    {
+        "title": "Revamp Website",
         "contentUrl": "./content/je_hanglung.html",
-        "description": "Revamp Website & Improve Experences",
-        "year": "2023",
+        "company": "Hung Lung",
+        "role": "Backend Developer\nFull-stack CMS Developer",
+        "year": "2022-2023",
+        "siteUrl": "https://www.hanglung.com/",
         "thumbnailUrl": "./img/je_hl_t.png",
         "backgroundUrl": "./img/je_hl_bg.jpg"
     }
